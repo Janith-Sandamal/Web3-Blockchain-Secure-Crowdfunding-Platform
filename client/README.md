@@ -1,49 +1,37 @@
-# thirdweb SDK + Vite starter
+## Getting Started
 
-## Setup client id
-
-Before you start, you need to replace the placeholder `clientId` with your client ID to use thirdweb SDK.
-
-Refer to [Creating a client](https://portal.thirdweb.com/typescript/v5/client) guide to see how you can get a client id.
-
-Go to `src/client.ts` file and replace the placeholder `clientId` with your client ID.
-
-```ts
-const clientId = "......";
-```
-
-## Usage
-
-### Install dependencies
+Create a project using this example:
 
 ```bash
-yarn
+npx thirdweb create --template vite-javascript-starter
 ```
 
-### Start development server
+You can start editing the page by modifying `src/main.jsx`. The page auto-updates as you edit the file.
+
+On `src/index.jsx`, you'll find our `ThirdwebProvider` wrapping your app,
+this is necessary for our [hooks](https://portal.thirdweb.com/react) and
+[UI Components](https://portal.thirdweb.com/ui-components) to work.
+
+### Deploy to IPFS
+
+Deploy a copy of your application to IPFS using the following command:
 
 ```bash
-yarn dev
+yarn deploy
 ```
 
-### Create a production build
+## Learn More
 
-```bash
-yarn build
-```
+To learn more about thirdweb, Vite and React, take a look at the following resources:
 
-### Preview the production build
+- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
+- [thirdweb JavaScript Documentation](https://docs.thirdweb.com/react) - learn about our JavaScript/TypeScript SDK.
+- [thirdweb Portal](https://docs.thirdweb.com/react) - check our guides and development resources.
+- [Vite Documentation](https://vitejs.dev/guide/) - learn about Vite features.
+- [React documentation](https://reactjs.org/) - learn React.
 
-```bash
-yarn preview
-```
-
-## Resources
-
-- [thirdweb SDK documentation](https://portal.thirdweb.com/typescript/v5)
-- [React components and hooks](https://portal.thirdweb.com/typescript/v5/react)
-- [thirdweb Dashboard](https://thirdweb.com/dashboard)
+You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
 
 ## Join our Discord!
 
-For any questions or suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
