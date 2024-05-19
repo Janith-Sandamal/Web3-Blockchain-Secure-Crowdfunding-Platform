@@ -21,7 +21,7 @@ Welcome to our Crowdfunding Platform project! This repository contains the front
 - **Blockchain Integration**: Integration with Web3.js and MetaMask for secure blockchain transactions.
 - **Machine Learning**: Utilization of machine learning algorithms for fraud detection and security enhancement.
 - **Secure Development Practices**: Adherence to secure coding standards and best practices to mitigate potential vulnerabilities.
-
+<hr>
 ## Getting Started
 
 To run the frontend locally, navigate to the `client` directory and execute the following command:
